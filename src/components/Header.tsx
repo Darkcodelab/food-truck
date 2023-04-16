@@ -12,6 +12,7 @@ export default function Header() {
       padding="10px"
       maxWidth="100%"
       position="absolute"
+      zIndex="2"
     >
       <Flex alignItems="center">
         <Hide below="md">

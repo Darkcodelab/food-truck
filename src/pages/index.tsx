@@ -3,6 +3,9 @@ import Head from "next/head";
 // components
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Articles from "@/components/Articles";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -15,9 +18,10 @@ export default function Home() {
       </Head>
       <main>
         <Header />
-
-        {/* Hero Section */}
-        <Hero></Hero>
+        <Hero />
+        <About />
+        <Articles />
+        <Footer />
       </main>
     </>
   );
